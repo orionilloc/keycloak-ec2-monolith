@@ -41,9 +41,9 @@ This project uses Terraform to deploy a secure, single-instance Keycloak identit
    Run the following commands in your project root directory:
 
    ```bash
-   terraform init      # Initialize the project
-   terraform plan      # Review the planned infrastructure changes
-   terraform apply     # Execute the deployment
+   terraform init      
+   terraform plan      
+   terraform apply     
 
  3. Access the Service:
     Navigate to `https://auth.{var.domain.name}/admin` to begin playing around with the environment or hook up to test applications or services like RSA's [IAM Showcase](https://sptest.iamshowcase.com/).
