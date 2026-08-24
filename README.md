@@ -4,6 +4,8 @@ This project uses Terraform to deploy a secure, single-instance Keycloak identit
 
 ## ✨ Architecture and Features
 
+![Architecture diagram](docs/keycloak-ec2-monolith-architecture.jpg)
+
 * Infrastructure as Code (IaC): The entire stack is provisioned by Terraform, including the VPC, Subnet, EC2 instance, IAM role, an Elastic IP (EIP), and a Route 53 A record for `auth.${var.domain_name}`.
 
 * Security:
