@@ -1,4 +1,4 @@
-# Keycloak Lab on AWS with Terraform
+# Keycloak EC2 Monolith on AWS with Terraform
 
 This project uses Terraform to deploy a secure, single-instance Keycloak identity and access management (IAM) server on AWS EC2. The setup uses Docker to containerize the services, includes a persistent PostgreSQL database, is fronted by Nginx, and automatically secures all traffic with Let's Encrypt SSL via Certbot. You can read more about my experiencing developing and implementing this lab [here](https://orionilloc.github.io/posts/AWSKeycloakPartTwo/) and [here](https://orionilloc.github.io/posts/AWSKeycloakPartThree/).
 
